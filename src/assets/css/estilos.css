@@ -1,0 +1,6 @@
+.mayusculas {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 50px;
+}

@@ -1,0 +1,12 @@
+.colorCoder {
+  color: yellow;
+  background-color: black;
+  padding: 25px;
+}
+
+.colorPieDePagina {
+  color:white;
+  background-color: black;
+  padding: 15px;
+  font-size: 12px;
+}
