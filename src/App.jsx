@@ -1,16 +1,25 @@
-/* import Props from './Clase4/Props' */
-import CompContenedor from './Clase4/CompContenedor'
-/* import CompPresentacion from './Clase4/CompPresentacion' */
-/* import States from './Clase4/States' */
+/* import CompChildren from './Clase5/CompChildren' */
+import CompUseEffect from './Clase5/CompUseEffect'
+/* import CompUseRef from './Clase5/CompUseRef' */
+
+const HolaMundo = () => {
+  return (
+    <h3 className='bg-dark text-warning p-3'>Hola Mundo!</h3>
+  )
+}
 
 function App() {
   return (
-    <>
-      {/* <Props academia={"Coderhouse"} curso={"React JS"} logo={"https://cdn.icon-icons.com/icons2/2699/PNG/512/reactjs_logo_icon_170805.png"} /> */}
-      {/* <States /> */}
-      {/* <CompPresentacion titulo1={"Coderhouse"} titulo2={"Curso de React JS"} /> */}
-      <CompContenedor />
-    </>
+    <div>
+      {/* <CompChildren texto={"Coderhouse"}>
+        <h3>Curso de React JS</h3>
+        <p>Estamos viendo la propiedad Children en Componentes...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vitae molestias architecto sunt, veniam, quae cupiditate, ex omnis adipisci veritatis distinctio tenetur ipsum? Et ullam sequi labore quisquam, vero veniam.</p>
+        <HolaMundo />
+      </CompChildren> */}
+      {/* <CompUseRef /> */}
+      <CompUseEffect />
+    </div>
   )
 }
 
