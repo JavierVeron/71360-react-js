@@ -1,9 +1,9 @@
-import EjemploMap from "./Clase6/EjemploMap"
+import EjemploFetch from "./Clase7/EjemploFetch"
 
 function App() {
   return (
     <>
-      <EjemploMap />
+      <EjemploFetch />
     </>
   )
 }
